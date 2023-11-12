@@ -1,7 +1,5 @@
 import React from "react";
 import Subscribe from "./Subscribe";
-import dcIllustration from "../_assets/design_components.svg";
-import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -20,8 +18,7 @@ const Hero = () => {
             Din One-Stop Designlösning
             </h1>
             <p className="mt-3 text-lg lg:mb-2 lg:mt-4 lg:text-xl lg:w-ch max-w-2xl mb-2 xl:w-fit">
-              Prisvärda hemsidor för startups och småföretag. Låt oss växa
-              tillsammans!
+              Från idé till imponerande design utan krångel. Vi levererar allt från eleganta webbsidor till effektfull reklam, alltid transparent och med glädje. Vårt abonnemang? Enkelt, rättvist, flexibelt – precis som design ska vara."
             </p>
           </div>
           <div className="flex items-center flex-col md:flex-row lg:mt-4 link-wrapper mt-3">
