@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../_assets/MADE.svg";
 import Image from "next/image";
 import { NavigationMenuService } from "./DropMenu";
+import { ModeToggle } from "./toggle-mode";
 
 const MainNav = () => {
   return (
@@ -12,17 +13,13 @@ const MainNav = () => {
         </a>
       </div>
       <div>
-        <ul className="flex">
+        <ul className="flex justify-center items-center">
           <li className="p-4">
             <NavigationMenuService />
           </li>
+          <li><ModeToggle /></li>
         </ul>
       </div>
-      {/* <div>
-        <button className="bg-lime-400 p-2 hover:-translate-x-1 font-semibold text-black border border-black rounded-md hover:shadow-plain-sm hover:shadow-white  transition-all">
-          Lets do this!
-        </button>
-      </div> */}
     </div>
   );
 };

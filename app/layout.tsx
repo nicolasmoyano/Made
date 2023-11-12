@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from './_components/theme-provider'
+import MainNav from './_components/MainNav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,9 @@ export default function RootLayout({
         <ThemeProvider
         attribute="class"
         defaultTheme="system">
+          <nav className='container pt-4 sticky top-0'>
+            <MainNav />
+          </nav>
         {children}
         </ThemeProvider>
         </body>
