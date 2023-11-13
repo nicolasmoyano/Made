@@ -1,7 +1,4 @@
-import Hero from "./_components/Hero";
-import MainNav from "./_components/MainNav";
-import Process from "./_components/Process/Process";
-import { ModeToggle } from "./_components/toggle-mode";
+import Hero from "./_components/Hero"
 
 export default function Home() {
   return (
